@@ -1,0 +1,91 @@
+/* || RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* || VARIABLES */
+
+:root{
+  --BORDER-RADIUS : 15px;
+}
+
+body{
+  background-color: black;
+}
+
+.main{
+
+  border: 5px solid whitesmoke;
+
+  max-width: fit-content;
+  height: auto;
+
+  padding: 1rem;
+  margin: 2rem auto;
+  background-color: #d71818;
+
+  text-align: center;
+}
+
+.user-input input{
+  height: 2.5rem;
+  width: 100%;
+  border-radius: var(--BORDER-RADIUS);
+  font-size: 2rem;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.user-input p{
+  /* display: none; */
+  max-width: fit-content;
+  margin: 0 auto;
+  border-radius: var(--BORDER-RADIUS);
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.cnt-sec p{
+  border: 2px solid black;
+  font-size: 2rem;
+  background-color: #fff;
+  width: max-content;
+  padding: 0 30px;
+  margin: 10px auto;  
+  border-radius: var(--BORDER-RADIUS);
+}
+
+button{
+  width: 100px;
+  border-radius: var(--BORDER-RADIUS);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-op{
+  font-size: 2rem;
+  margin: 10px;
+}
+
+.btn-reset{
+  
+  font-size: 1.5rem;
+  padding: 8px 5px 2px;
+  padding-top: 8px;
+  margin: 20px 10px;
+}
+
+.btn-color{
+  font-size: 1.5rem;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+button:hover, button:focus{
+  background-color: #817f7f;
+}
